@@ -1,0 +1,7 @@
+Options -Indexes
+RewriteEngine On
+
+# Protect application configuration and source data
+RewriteRule ^config/ - [F,L]
+RewriteRule ^database/ - [F,L]
+RewriteRule ^\.git/ - [F,L]
