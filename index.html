@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BIOS.PAGE.GD — Short Links & Link-in-Bio</title>
+<meta name="description" content="Shorten links instantly without login. Create custom short links and a Link-in-Bio profile with a free account.">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header>
+  <a class="brand" href="/">BIOS<span>.PAGE.GD</span></a>
+  <nav>
+    <a href="#features">Features</a>
+    <a href="/login.php">Login</a>
+    <a class="btn small" href="/register.php">Create account</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero">
+  <div>
+    <p class="eyebrow">SHORT LINKS • BIO PROFILES</p>
+    <h1>Short links.<br><span>One place.</span></h1>
+    <p class="lead">Shorten any URL instantly — no signup required. Login when you want custom aliases, analytics and your own Link-in-Bio page.</p>
+  </div>
+
+  <div class="card">
+    <form id="shortenForm">
+      <label for="longUrl">Paste your long URL</label>
+      <div class="row">
+        <input id="longUrl" type="url" placeholder="https://example.com/your-long-link" required>
+        <button type="submit">Shorten URL</button>
+      </div>
+      <p class="hint">Guest links use a random code. Custom aliases require an account.</p>
+    </form>
+    <div id="result" class="result" hidden></div>
+  </div>
+</section>
+
+<section id="features" class="section">
+  <p class="eyebrow">BUILT FOR SIMPLE SHARING</p>
+  <h2>Simple for guests. Powerful for members.</h2>
+  <div class="grid">
+    <article><h3>Instant shortening</h3><p>Paste a URL and shorten it without registration.</p></article>
+    <article><h3>Custom aliases</h3><p>Create memorable links such as <b>/youtube</b> after login.</p></article>
+    <article><h3>Link-in-Bio</h3><p>Build a public profile containing your important links.</p></article>
+    <article><h3>Analytics</h3><p>Manage links and view click statistics from your dashboard.</p></article>
+  </div>
+</section>
+
+<section class="cta">
+  <div>
+    <p class="eyebrow">YOUR LINKS, YOUR IDENTITY</p>
+    <h2>Create your own Link-in-Bio page.</h2>
+    <p>Website, GitHub, YouTube, social profiles and projects — all in one place.</p>
+  </div>
+  <a class="btn" href="/register.php">Create free profile</a>
+</section>
+</main>
+
+<footer>
+  <span>© 2026 BIOS.PAGE.GD</span>
+  <span>
+    <a href="/about.php">About</a> ·
+    <a href="/privacy.php">Privacy</a> ·
+    <a href="/terms.php">Terms</a> ·
+    <a href="/report.php">Report</a>
+  </span>
+</footer>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>
